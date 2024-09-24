@@ -66,9 +66,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [2] = LAYOUT_ortho_3x5_2(
   // Navigation Layer
   //--------------------------------------------------------------------------------          ----------------------------------------------------------------------------------
-    KC_ESCAPE,  KC_MS_WH_LEFT,  KC_MS_UP,   KC_MS_WH_RIGHT,  KC_PGUP,                         LCTL(LSFT(KC_TAB)), LALT(KC_LEFT),  KC_UP,   LALT(KC_RIGHT),  KC_BSPC,
+    KC_ESCAPE,  KC_MS_WH_LEFT,  KC_MS_UP,   KC_MS_WH_RIGHT,  KC_PGUP,                         LCTL(LSFT(KC_TAB)), LALT(KC_LEFT),  RCTL(KC_TAB),   LALT(KC_RIGHT),  KC_BSPC,
   //--------------------------------------------------------------------------------          ----------------------------------------------------------------------------------
-    KC_TAB,   KC_MS_LEFT, KC_MS_DOWN, KC_MS_RIGHT,    MT(MOD_LGUI,KC_DEL),                    RCTL(KC_TAB),   KC_LEFT,   KC_DOWN, KC_RIGHT,   KC_ENTER,
+    KC_TAB,   KC_MS_LEFT, KC_MS_DOWN, KC_MS_RIGHT,    MT(MOD_LGUI,KC_DEL),                    KC_LEFT,   KC_DOWN,   KC_UP, KC_RIGHT,   KC_ENTER,
   //--------------------------------------------------------------------------------          ----------------------------------------------------------------------------------
     OSM(MOD_LCTL),   KC_MS_WH_UP,    KC_MS_WH_DOWN,  KC_MS_BTN2, KC_PGDN,                     KC_MS_BTN1,     TD(CTRL_HOME),   KC_INS,   TD(CTRL_END),   KC_DELETE,
   //--------------------------------------------------------------------------------          ----------------------------------------------------------------------------------
